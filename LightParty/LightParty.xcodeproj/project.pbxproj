@@ -16,6 +16,7 @@
 		A03BA72326083BE400474598 /* LightPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA72226083BE400474598 /* LightPartyTests.swift */; };
 		A03BA72E26083BE400474598 /* LightPartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA72D26083BE400474598 /* LightPartyUITests.swift */; };
 		A03BA74426083C7D00474598 /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA74326083C7D00474598 /* PartyView.swift */; };
+		A03BA7492608455D00474598 /* PartyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA7482608455D00474598 /* PartyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A03BA72D26083BE400474598 /* LightPartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightPartyUITests.swift; sourceTree = "<group>"; };
 		A03BA72F26083BE400474598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A03BA74326083C7D00474598 /* PartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyView.swift; sourceTree = "<group>"; };
+		A03BA7482608455D00474598 /* PartyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		A03BA73F26083C0400474598 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A03BA7482608455D00474598 /* PartyViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03BA70C26083BE400474598 /* AppDelegate.swift in Sources */,
+				A03BA7492608455D00474598 /* PartyViewModel.swift in Sources */,
 				A03BA74426083C7D00474598 /* PartyView.swift in Sources */,
 				A03BA70E26083BE400474598 /* SceneDelegate.swift in Sources */,
 				A03BA71026083BE400474598 /* ContentView.swift in Sources */,
