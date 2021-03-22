@@ -15,6 +15,7 @@
 		A03BA71826083BE400474598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03BA71626083BE400474598 /* LaunchScreen.storyboard */; };
 		A03BA72326083BE400474598 /* LightPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA72226083BE400474598 /* LightPartyTests.swift */; };
 		A03BA72E26083BE400474598 /* LightPartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA72D26083BE400474598 /* LightPartyUITests.swift */; };
+		A03BA74426083C7D00474598 /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03BA74326083C7D00474598 /* PartyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A03BA72926083BE400474598 /* LightPartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightPartyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03BA72D26083BE400474598 /* LightPartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightPartyUITests.swift; sourceTree = "<group>"; };
 		A03BA72F26083BE400474598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03BA74326083C7D00474598 /* PartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				A03BA70F26083BE400474598 /* ContentView.swift */,
+				A03BA74326083C7D00474598 /* PartyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03BA70C26083BE400474598 /* AppDelegate.swift in Sources */,
+				A03BA74426083C7D00474598 /* PartyView.swift in Sources */,
 				A03BA70E26083BE400474598 /* SceneDelegate.swift in Sources */,
 				A03BA71026083BE400474598 /* ContentView.swift in Sources */,
 			);
